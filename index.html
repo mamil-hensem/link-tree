@@ -3,48 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LINK TREE</title>
+  <title>LINK TREE - MUZZAMMIL</title>
   <!-- FontAwesome CDN for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background-color: #0d1117;
+      /* Modern gradient background */
+      background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #31103f 100%);
+      background-attachment: fixed;
+      
+      /* OPTIONAL: To use a background image instead, uncomment the lines below and add your image URL */
+      /* 
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('YOUR_IMAGE_URL_HERE');
+      background-size: cover;
+      background-position: center;
+      */
+
       color: #ffffff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px;
+      padding: 50px 20px;
       margin: 0;
+      min-height: 100vh;
+      box-sizing: border-box;
     }
+
     h1 {
-      margin-bottom: 24px;
-      font-size: 1.8rem;
+      margin-bottom: 28px;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.5);
     }
+
     .link-btn {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 12px;
       width: 100%;
-      max-width: 320px;
+      max-width: 340px;
       padding: 14px 20px;
-      margin: 8px 0;
-      background-color: #21262d;
+      margin: 10px 0;
+      
+      /* Glassmorphism translucent button style */
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
       color: #ffffff;
       text-decoration: none;
-      border-radius: 8px;
-      border: 1px solid #30363d;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
       font-weight: 600;
       box-sizing: border-box;
-      transition: background-color 0.2s, border-color 0.2s;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     }
+
     .link-btn i {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
+
     .link-btn:hover {
-      background-color: #30363d;
-      border-color: #8b949e;
+      background: rgba(255, 255, 255, 0.25);
+      border-color: rgba(255, 255, 255, 0.5);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
     }
   </style>
 </head>
@@ -52,17 +78,39 @@
 
   <h1>MUZZAMMIL</h1>
 
+  <!-- 1. WhatsApp -->
   <a href="https://api.whatsapp.com/send?username=muzzammil2007" class="link-btn" target="_blank">
     <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i> WhatsApp
   </a>
+
+  <!-- 2. IG 1 -->
   <a href="https://www.instagram.com/1o87655" class="link-btn" target="_blank">
-    <i class="fa-brands fa-instagram" style="color: #E4405F;"></i> Instagram
+    <i class="fa-brands fa-instagram" style="color: #E4405F;"></i> Instagram 1
   </a>
+
+  <!-- 3. IG 2 (mamil) -->
+  <a href="https://www.instagram.com/mamildumps" class="link-btn" target="_blank">
+    <i class="fa-brands fa-instagram" style="color: #F77737;"></i> IG 2 (mamil)
+  </a>
+
+  <!-- 4. Telegram -->
   <a href="https://t.me/muzzammil1101" class="link-btn" target="_blank">
     <i class="fa-brands fa-telegram" style="color: #0088cc;"></i> Telegram
   </a>
+
+  <!-- 5. TikTok -->
   <a href="https://www.tiktok.com/@bdkmalaspushconq" class="link-btn" target="_blank">
     <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> TikTok
+  </a>
+
+  <!-- 6. X (Twitter) -->
+  <a href="http://x.com/aamanumuzzammil" class="link-btn" target="_blank">
+    <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i> X
+  </a>
+
+  <!-- 7. Facebook -->
+  <a href="https://www.facebook.com/muzzammil.aamanu" class="link-btn" target="_blank">
+    <i class="fa-brands fa-facebook" style="color: #1877F2;"></i> Facebook
   </a>
 
 </body>
